@@ -14,17 +14,17 @@
 						$contact = get_option('contact');
 						$email = get_option('email');
 					?>
-					<i class="glyphicon glyphicon-home"></i>
+					<i class=""></i>
 					<p><?php echo $address; ?></p>
 				</div>
 
 				<div>
-					<i class="glyphicon glyphicon-phone"></i>
+					<i class=""></i>
 					<p><?php echo $contact; ?></p>
 				</div>
 
 				<div>
-					<i class="glyphicon glyphicon-envelope"></i>
+					<i class=""></i>
 					<p><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></p>
 				</div>
 
