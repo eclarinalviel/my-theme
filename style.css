@@ -30,6 +30,8 @@ hr{
 .nav-container a{
 	color: #D9DAEC;
 	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 .nav-container a:hover{
 	color: #646464;

@@ -6,15 +6,7 @@
         <?php wp_head(); ?>
     </head>
 
-    <?php
-        if( is_front_page() ):
-            $mytheme_classes = array('mytheme-class', 'my-class');
-        else:
-            $mytheme_classes = array('not-mytheme-class');
-        endif;
-    ?>
-
-<body <?php body_class($mytheme_classes); ?>>
+<body>
          <!-- Navigation -->
     <nav class="nav-container" role="navigation">
         <div class="container">

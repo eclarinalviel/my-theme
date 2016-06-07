@@ -12,6 +12,7 @@
 						<div class="pull-right"><?php the_post_thumbnail('medium'); ?> </div>
 					<?php endif; ?>
 					<small> <?php the_category(' '); ?> | <?php the_tags(); ?> | <?php edit_post_link(); ?></small>
+					<hr>
 					<?php the_content(); ?>
 					<hr>
 					<?php if(comments_open()){ comments_template(); }
