@@ -7,7 +7,7 @@
     </head>
 <body>
     <?php get_header_image(); ?>
-         <!-- Navigation -->
+    <!-- NAVIGATION -->
     <?php if ( has_nav_menu( 'primary' ) ) { ?>
         <nav class="nav-container" role="navigation">
             <div class="container">
@@ -56,3 +56,4 @@
         </nav>
 
     <?php } ?>
+    <!-- END OF NAVIGATION -->
